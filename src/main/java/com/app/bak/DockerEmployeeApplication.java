@@ -9,13 +9,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.app.bak.service.EmployeeService;
 
 @SpringBootApplication
-public class ServiceApplication implements ApplicationRunner {
+public class DockerEmployeeApplication implements ApplicationRunner {
 
 	@Autowired
 	EmployeeService employeeService;
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServiceApplication.class, args);
+		SpringApplication.run(DockerEmployeeApplication.class, args);
 	}
 
 	@Override
